@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700;900&display=swap");
+body {
+  max-width: 1440px;
+  background-color: #fafafa;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  position: relative;
+  height: 100%;
+  margin: auto;
+}
+section.container {
+  height: 100vh;
+}
+div.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+div.appBackground {
+  width: 26rem;
+  height: 89vh;
+  background: linear-gradient(#c841ff, #913bff);
+  border: 1px solid transparent;
+  border-bottom-left-radius: 10.5rem;
+  border-bottom-right-radius: 18rem;
+  margin-left: -3rem;
+}
+div.appBox {
+  display: flex;
+}
+div.chatBox {
+  background-color: #f5f3f8;
+  border: 0.8rem solid #fefefa;
+  margin-bottom: 6rem;
+  border-radius: 2.5rem;
+  position: relative;
+  -webkit-box-shadow: 15px 15px 37px 5px rgba(62, 66, 66, 0.14);
+  -moz-box-shadow: 15px 15px 37px 5px rgba(62, 66, 66, 0.14);
+  box-shadow: 15px 15px 37px 5px rgba(62, 66, 66, 0.14);
+  margin-left: -4.5rem;
+  width: 15rem;
+  height: 29.5rem;
+  align-self: flex-start;
+  margin-top: 5rem;
+}
+div.appHead {
+  background-image: linear-gradient(
+    to right,
+    #913bff,
+    #a03cff,
+    #ae3dff,
+    #bb3fff,
+    #c841ff
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem 1rem 1rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+div.avatar {
+  display: flex;
+  align-items: center;
+}
+.avatarImage {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+span.leftArrow {
+  margin-right: 0.8rem;
+}
+span.leftArrow img {
+  max-width: 1rem;
+  width: 100%;
+  display: block;
+}
+span.circleAvatar {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+span.circleAvatar img {
+  width: 100%;
+}
+div.avatarText h4 {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 900;
+  margin: 0;
+}
+div.avatarText p {
+  color: #ffffff9e;
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin: 0.2rem 0;
+}
+div.absolute {
+  position: absolute;
+  width: 9rem;
+  height: 2rem;
+  border: 1px solid transparent;
+  border-radius: 3rem;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  transform: translate(34%, -40%);
+}
+div.appBody {
+  padding: 0.5rem 0.7rem;
+}
+div.appLeft {
+  width: 60%;
+  background-color: #ede5f1;
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+}
+div.appLeft p {
+  background: linear-gradient(
+    to right,
+    #913bff,
+    #a03cff,
+    #ae3dff,
+    #bb3fff,
+    #c841ff
+  );
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparentl;
+  /* padding: 0; */
+  margin: 0;
+  font-size: 0.6rem;
+}
+.appBodyRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0.6rem 0;
+}
+div.appBodyImage {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+div.appBodyImage img {
+  max-width: 2.5rem;
+  border-radius: 0.7rem;
+  margin-right: 0.5rem;
+}
+div.appBodyImage img:nth-child(3) {
+  margin-right: 0;
+}
+.appLiteText p {
+  margin: 0;
+  font-size: 0.6rem;
+}
+div.appLiteText {
+  width: 60%;
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  -webkit-box-shadow: 0px 19px 19px 4px rgba(62, 66, 66, 0.09);
+  -moz-box-shadow: 0px 19px 19px 4px rgba(62, 66, 66, 0.09);
+  box-shadow: 0px 19px 19px 4px rgba(62, 66, 66, 0.09);
+}
+div.appWrap {
+  width: 31%;
+}
+div.colorChat {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #c841ff,
+    #bb3fff,
+    #ae3dff,
+    #a03cff,
+    #913bff
+  );
+  margin-bottom: 0.5rem;
+  width: 60%;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  border-top-left-radius: 0.6rem;
+  padding: 0.3rem 0.5rem;
+}
+div.circle {
+  width: 0.7rem;
+  height: 0.7rem;
+  border: 2px solid #ffffff5e;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
+div.colorText p {
+  color: white;
+  margin: 0;
+  font-size: 0.6rem;
+  margin-right: 1.7rem;
+}
+
+div.price {
+  color: white;
+  /* margin-left: 3rem; */
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+div.appFooter {
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  margin-top: 0.9rem;
+}
+div.appFooter input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: ##000000b0;
+  font-size: 0.8rem;
+}
+div.arrowRight {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #402651;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+}
+div.appTextBox {
+  display: flex;
+  margin-left: 9rem;
+  align-items: flex-end;
+}
+div.appText {
+  width: 78%;
+  align-self: center;
+  margin-right: -5rem;
+  z-index: 1;
+}
+div.appText h2 {
+  color: #3d2952;
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+.appText p {
+  font-size: 1rem;
+  color: #b1afb4;
+  line-height: 1.5rem;
+}
+.arrowRight img {
+  width: 0.5rem;
+}
+div.textBackground {
+  width: 20rem;
+  height: 80vh;
+  background-color: #f7f5fa;
+  border: 1px solid transparent;
+  border-top-left-radius: 15rem;
+}
+div.footer {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+/* media query */
+@media screen and (max-width: 375px) {
+  div.wrapper {
+    flex-direction: column;
+  }
+  div.appBackground {
+    width: 14rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 15rem;
+  }
+  div.chatBox {
+    width: 15rem;
+    margin-left: -7rem;
+    margin-top: 4rem;
+  }
+  div.appTextBox {
+    margin-left: 0;
+    max-width: 375px;
+    justify-content: space-between;
+  }
+  div.appText {
+    width: 100%;
+    margin-right: -10rem;
+    z-index: 1;
+    text-align: center;
+    padding: 0 2rem;
+    align-self: flex-end;
+    padding-bottom: 2rem;
+  }
+  div.absolute {
+    width: 9rem;
+  }
+  div.textBackground {
+    width: 12rem;
+    height: 29rem;
+    margin-top: -14rem;
+  }
+  div.footer {
+    display: none;
+  }
+}
